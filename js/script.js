@@ -58,7 +58,7 @@ submitToDo.addEventListener('click', (e => {
             alartFlag = "  Title is missing..."
         }
         alart.innerHTML = `<div class="alert alert-danger d-flex align-items-center" role="alert">
-                <b>Alart :</b> &nbsp ${alartFlag}
+                <b>Alert :</b> &nbsp ${alartFlag}
               </div>`
         setTimeout(() => {
             alart.innerHTML = "";
